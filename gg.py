@@ -1,5 +1,4 @@
 from gtts import gTTS
-import os
 
 text = input("Enter text to convert to speech: ")
 tts = gTTS(text)
